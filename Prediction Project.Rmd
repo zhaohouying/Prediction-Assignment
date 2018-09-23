@@ -15,7 +15,7 @@ I also use your prediction model to predict 20 different test cases in the test 
 knitr::opts_chunk$set(echo = TRUE,cache = TRUE)
 ```
 
-### 1. Load ibraries needed,create a d folder and download the data into the folder. Enable prrallel running to speedup the modeling
+### 1. Load libraries needed,create a d folder and download the data into the folder. Enable prrallel running to speedup the modeling
 ```{r}
 library(parallel)
 library(doParallel)
